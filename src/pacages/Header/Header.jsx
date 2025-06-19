@@ -8,7 +8,7 @@ export default function Header() {
       <div className="header">
         <div className="header_logo">
           <img
-            src={"/LogoMasage.png"}
+            src={process.env.PUBLIC_URL + "/LogoMasage.png"}
             alt="Логотип масажного салону"
             className="header_logo"
           />

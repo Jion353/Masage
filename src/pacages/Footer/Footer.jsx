@@ -23,7 +23,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="footer_bg-logo">
-        <img src="/LogoMasage.png" alt="Логотип" />
+        <img src={process.env.PUBLIC_URL + "/LogoMasage.png"} alt="Логотип" />
       </div>
     </footer>
   );
