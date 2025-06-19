@@ -1,0 +1,36 @@
+@import url('../../variables/cssVariables.scss');
+
+.home{
+    margin: auto;
+    width: 60%;
+  
+  &_section {
+    padding: 30px;
+    border-bottom: 2px solid var(--borders-color);
+        
+    &:last-child {
+      border-bottom: none;
+    }
+
+    &-title{
+      padding-bottom: 5px;
+    }
+
+    &-content{
+      border: 2px solid var(--borders-color);
+      border-radius: 12px;
+      padding: 10px 12px;
+      margin-bottom: 12px;
+      background: var(--accent-background);
+      // box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    }
+  }
+
+  &_slideShow{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}

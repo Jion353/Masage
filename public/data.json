@@ -1,0 +1,47 @@
+{
+  "masseurs": [
+    {
+      "id": 1,
+      "name": "Іван Петренко",
+      "photo": "https://randomuser.me/api/portraits/men/32.jpg",
+      "description": "Досвідчений масажист"
+    },
+    {
+      "id": 2,
+      "name": "Олена Ковальчук",
+      "photo": "https://randomuser.me/api/portraits/women/44.jpg",
+      "description": "Майстриня релаксу"
+    }
+  ],
+
+"reservations": [
+    {
+      "id": 1,
+      "clientName": "Олена",
+      "date": "2025-06-20",
+      "time": "10:00",
+      "masseurId": 2
+    },
+    {
+      "id": 2,
+      "clientName": "Іван",
+      "date": "2025-06-21",
+      "time": "12:00",
+      "masseurId": 1
+    },
+    {
+      "id": 3,
+      "clientName": "Марія",
+      "date": "2025-06-22",
+      "time": "15:00",
+      "masseurId": 3
+    },
+    {
+      "id": 4,
+      "clientName": "Андрій",
+      "date": "2025-06-23",
+      "time": "09:30",
+      "masseurId": 4
+    }
+  ]
+}

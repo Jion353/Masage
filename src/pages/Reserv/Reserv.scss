@@ -1,0 +1,74 @@
+@import url("../../variables/cssVariables.scss");
+
+.reservation-page {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 60vh;
+  padding-top: 40px;
+}
+
+.reservation-form {
+  background: var(--accent-background);
+  border: 2px solid var(--borders-color);
+  border-radius: 12px;
+  padding: 32px 28px;
+  min-width: 320px;
+  box-shadow: 0 2px 8px rgba(173, 20, 87, 0.06);
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.reservation-form h2 {
+  margin-bottom: 10px;
+  color: var(--main-text-color);
+  text-align: center;
+}
+
+.reservation-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  color: var(--main-text-color);
+  gap: 6px;
+}
+
+.reservation-datetime {
+  display: flex;
+  gap: 10px;
+}
+
+.reservation-form input,
+.reservation-form select {
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1.5px solid var(--borders-color);
+  background: #fff;
+  color: var(--main-text-color);
+  font-size: 1rem;
+}
+
+.reservation-buttons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.reservation-buttons button {
+  padding: 8px 22px;
+  border-radius: 20px;
+  border: none;
+  background: var(--borders-color);
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.reservation-buttons button:hover {
+  background: var(--main-text-color);
+  transform: translateY(-2px) scale(1.04);
+}

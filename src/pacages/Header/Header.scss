@@ -1,0 +1,60 @@
+@import url("../../variables/cssVariables.scss");
+
+header {
+  display: flex;
+  background-color: var(--background-header);
+  border: var(--borders-color), solid, 1px;
+}
+
+.header {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 70%;
+  margin: auto;
+
+  &_buttons {
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+
+    &-button {
+      display: flex;
+      border: var(--borders-color), solid, 1px;
+      width: 100px;
+      background: radial-gradient(
+        circle,
+        transparent 0%,
+        var(--background-header) 35%,
+        rgb(231, 155, 155) 100%
+      );
+      transition: background 0.75s;
+
+      &-text {
+        text-align: center;
+        justify-items: center;
+        width: 100px;
+        font-size: 15px;
+        padding: 10px 0;
+        text-decoration: none;
+      }
+
+      &:hover {
+        background: var(--borders-color);
+      }
+    }
+  }
+
+  &_phones {
+    display: flex;
+    align-items: center;
+    &_phone {
+      text-decoration: none;
+      font-size: 13px;
+    }
+  }
+
+  &_logo {
+    width: 35px;
+    height: 35px;
+  }
+}

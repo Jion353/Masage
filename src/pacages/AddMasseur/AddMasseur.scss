@@ -1,0 +1,100 @@
+.add-masseur-backdrop {
+  position: fixed;
+  z-index: 1000;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: auto;
+}
+
+.add-masseur-modal {
+  width: 60vw;
+  height: 60vh;
+  background: var(--accent-background, #fff);
+  border: 2px solid var(--borders-color, #e57373);
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgba(173, 20, 87, 0.18);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  padding: 32px 36px;
+  position: relative;
+  z-index: 1001;
+}
+
+.add-masseur-modal h2 {
+  margin-bottom: 18px;
+  color: var(--main-text-color);
+  text-align: center;
+}
+
+.add-masseur-modal form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex: 1;
+}
+
+.add-masseur-modal label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  color: var(--main-text-color);
+  gap: 6px;
+}
+
+.add-masseur-modal input[type="text"],
+.add-masseur-modal textarea {
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1.5px solid var(--borders-color, #e57373);
+  background: #fff;
+  color: var(--main-text-color);
+  font-size: 1rem;
+}
+
+.add-masseur-modal input[type="file"] {
+  margin-top: 4px;
+}
+
+.add-masseur-photo-preview {
+  margin-top: 8px;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1.5px solid var(--borders-color, #e57373);
+  background: #fff;
+}
+
+.add-masseur-buttons {
+  display: flex;
+  gap: 18px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.add-masseur-buttons button {
+  padding: 8px 22px;
+  border-radius: 20px;
+  border: none;
+  background: var(--borders-color, #e57373);
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.add-masseur-buttons .cancel {
+  background: #bbb;
+  color: #fff;
+}
+
+.add-masseur-buttons button:hover {
+  background: var(--main-text-color, #ad1457);
+  transform: translateY(-2px) scale(1.04);
+}

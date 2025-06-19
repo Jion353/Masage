@@ -1,0 +1,47 @@
+.staff {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.staff-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  position: relative;
+}
+
+.add-masseur-fab {
+  position: fixed;
+  left: 32px;
+  bottom: 150px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: var(--borders-color, #e57373);
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: bold;
+  border: none;
+  box-shadow: 0 4px 16px rgba(173, 20, 87, 0.18);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1100;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.add-masseur-fab:hover {
+  background: var(--main-text-color, #ad1457);
+  transform: scale(1.08);
+}
+
+.add-masseur-fab span {
+  display: block;
+  line-height: 1;
+  font-size: 2.2rem;
+  margin-top: -2px;
+}
