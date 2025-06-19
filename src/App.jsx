@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter, Routes, Route } from "react-router-dom";
+import {Routes, Route } from "react-router-dom";
 import Header from "./pacages/Header/Header.jsx";
 import Footer from "./pacages/Footer/Footer.jsx";
 import Home from "./pages/Home/Home.jsx";
@@ -15,8 +15,8 @@ function App() {
       <main className="page">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/staff" element={<Staff />} />
-          <Route path="/reserv" element={<Reserv />} />
+          <Route path="#/staff" element={<Staff />} />
+          <Route path="#/reserv" element={<Reserv />} />
         </Routes>
       </main>
       <Footer />
