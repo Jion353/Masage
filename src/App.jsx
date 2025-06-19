@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Header from "./pacages/Header/Header.jsx";
 import Footer from "./pacages/Footer/Footer.jsx";
 import Home from "./pages/Home/Home.jsx";
@@ -13,15 +13,13 @@ function App() {
     <div className="page-wrapper">
       <Header />
       <main className="page">
-        <BrowserRouter>
+        <HashRouter>
           <Routes>
-            <Route path="/">
-              <Route index element={<Home />} />
-              <Route path="staff" element={<Staff />} />
-              <Route path="reserv" element={<Reserv />} />
-            </Route>
+            <Route path="/" element={<Home />} />
+            <Route path="/staff" element={<Staff />} />
+            <Route path="/reserv" element={<Reserv />} />
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
       </main>
       <Footer />
     </div>
