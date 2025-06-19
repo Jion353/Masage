@@ -13,13 +13,11 @@ function App() {
     <div className="page-wrapper">
       <Header />
       <main className="page">
-        <HashRouter>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/staff" element={<Staff />} />
-            <Route path="/reserv" element={<Reserv />} />
-          </Routes>
-        </HashRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/staff" element={<Staff />} />
+          <Route path="/reserv" element={<Reserv />} />
+        </Routes>
       </main>
       <Footer />
     </div>
