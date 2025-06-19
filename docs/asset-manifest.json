@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Masage/static/css/main.b97f0511.css",
-    "main.js": "/Masage/static/js/main.603fe48b.js",
+    "main.js": "/Masage/static/js/main.c4c726d9.js",
     "static/js/453.15811374.chunk.js": "/Masage/static/js/453.15811374.chunk.js",
     "index.html": "/Masage/index.html",
     "main.b97f0511.css.map": "/Masage/static/css/main.b97f0511.css.map",
-    "main.603fe48b.js.map": "/Masage/static/js/main.603fe48b.js.map",
+    "main.c4c726d9.js.map": "/Masage/static/js/main.c4c726d9.js.map",
     "453.15811374.chunk.js.map": "/Masage/static/js/453.15811374.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b97f0511.css",
-    "static/js/main.603fe48b.js"
+    "static/js/main.c4c726d9.js"
   ]
 }
